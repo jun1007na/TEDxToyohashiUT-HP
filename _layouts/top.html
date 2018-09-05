@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!-- include meta, favicon -->
+  {% include meta.html %}
+  <!-- title -->
+  <title>TEDxToyohashiUT</title>
+  <!-- include stylesheet -->
+  {% include stylesheets.html %}
+
+</head>
+
+<body>
+  {% include nav.html%}
+  <!-- main contents-->
+  <main role="main">
+    <!-- hello -->
+    {% include hello.html %}
+    <!-- belt -->
+    {% include belt.html %}
+    <div class="container">
+      <!-- speakers -->
+      {% include speakers.html %}
+      <!-- schedule -->
+      {% include schedule.html %}
+      <!-- partners -->
+      {% include partners.html %}
+      <!-- staff -->
+      {% include staff.html %}
+      <!-- access -->
+      {% include access.html %}
+    </div>
+
+  </main>
+
+  <!-- footer -->
+  {% include footer.html %}
+
+  <!-- include javascripts -->
+  {% include javascripts.html %}
+
+</body>
+
+</html>

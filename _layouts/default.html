@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!-- include meta, favicon -->
+  {% include meta.html %}
+  <!-- title -->
+  <title>{{page.title}} - {{site.name}}</title>
+  <!-- include stylesheet -->
+  {% include stylesheets.html %}
+
+</head>
+
+<body>
+  <!-- navigation bar -->
+  {% include nav.html %}
+  <!-- belt -->
+  {% include belt.html %}
+  <!-- speakers -->
+  {% include speakers.html %}
+  <!-- main contents-->
+  <main role="main" class="container">
+    {{ content }}
+  </main>
+
+  <!-- semi footer -->
+  <!-- staff -->
+  {% include staff.html %}
+
+  <!-- include footer -->
+  {% include footer.html %}
+
+  <!-- include javascripts -->
+  {% include javascripts.html %}
+
+
+</body>
+
+</html>

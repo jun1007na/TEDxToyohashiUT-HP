@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "YuGothic-M";
+  font-weight: normal;
+  src: local("YuGothic-Medium"),
+  local("Yu Gothic Medium"),
+  local("YuGothic-Regular");
+}
+
+@font-face {
+  font-family: "YuGothic-M";
+  font-weight: bold;
+  src: local("YoGothic-Bold"),
+  local("Yu Gothic");
+}
+
+body {
+  font-family: -apple-system, blinkMacSystemFont, "Segoe UI", Roboto, 'Helvetica Neue', YuGothic-M, YuGothic, 'Hiragino Kaku Gothic ProN', 'MS PGothic', Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  ::i-block-chrome,
+  body {
+    font-feature-settings: "pkna";
+  }
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 56px;
+}
+
+/*
+section {
+  padding: 4rem 0;
+}
+*/
+
+footer {
+  padding: 10px 0;
+}
+
+.bg-dark-a {
+  background: #212529;
+  color: rgba(255, 255, 255, .5);
+}
+
+.bg-dark-a a {
+  color: #fff;
+}
+
+.bg-dark-b {
+  background: #333;
+  color: rgba(255, 255, 255, .5);
+}
+
+.bg-dark-b a {
+  color: #fff;
+}
+
+#ft-sub {
+  text-align: center;
+}
+
+#ft-sub ul {}
+
+#ft-sub li {
+  display: inline-block;
+  margin: 1rem .5rem;
+}
+
+#ft-copyright {}
+
+#ft-developer li {
+  display: inline-block;
+}
+
+.of-hid {
+  overflow: hidden;
+}
+
+/* 外部 */
+
+.section-heading {
+  margin-bottom: .5rem;
+}
+
+.section-subheading {
+  margin-bottom: 4rem;
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, .5);
+   !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+#belt {}
+
+.auto-fit {
+  object-fit: cover;
+}
+
+#access iframe {
+  width: 100%;
+  height: 340px;
+}
+
+.mt-map {
+  margin-top: 340px;
+}
+
+.navbar-bg {
+  background-color: #212529 !important;
+}
