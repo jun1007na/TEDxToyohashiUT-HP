@@ -34,3 +34,5 @@ Temporary Items
 .apdisk
 ##End of MacOS ignore
 /assets/img/local/
+/.firebaserc
+/firebase.json
