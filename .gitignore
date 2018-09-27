@@ -33,6 +33,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 ##End of MacOS ignore
-/assets/img/local/
+
+# Firebase
+/.firebase/
 /.firebaserc
 /firebase.json
+##End of Firebase
+/assets/img/local/
+
