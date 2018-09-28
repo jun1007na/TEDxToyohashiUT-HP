@@ -128,3 +128,27 @@ h6 {
 .navbar-bg {
   background-color: #212529 !important;
 }
+
+#about-tedx {
+    padding-top: 56px;
+}
+
+#speakers {
+    padding-top: 56px;
+}
+
+#schedule {
+    padding-top: 56px;
+}
+
+#partners {
+    padding-top: 56px;
+}
+
+#staff {
+    padding-top: 56px;
+}
+
+#access {
+    padding-top: 56px;
+}
