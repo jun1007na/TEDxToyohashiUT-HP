@@ -36,8 +36,6 @@ Temporary Items
 
 # Firebase
 /.firebase/
-/.firebaserc
-/firebase.json
 ##End of Firebase
 /assets/img/local/
 
