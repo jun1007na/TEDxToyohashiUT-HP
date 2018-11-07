@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rule
+title: Press
 ---
 ## Press
 ### 報道関係の皆様へ
@@ -10,5 +10,6 @@ title: Rule
 TEDxToyohashiUT 実行委員会
 
 オーガナイザー(代表者)：今井裕太
-Mail：tedxtoyohashiut.imai@gmail.com
+Mail：tedxtoyohashiut.imai[at]gmail.com
 
+[at]を＠に置き換えてください
