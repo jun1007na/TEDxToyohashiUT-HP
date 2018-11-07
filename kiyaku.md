@@ -1,7 +1,6 @@
 ---
 layout: default
-title: about
+title: Terms of service
 ---
-
-# Hello, world
-hello jekyll.
+## Terms of service
+### 利用規約
